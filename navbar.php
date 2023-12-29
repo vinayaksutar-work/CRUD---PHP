@@ -5,7 +5,7 @@
   <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item <?php if($title == 'Home'){ echo 'active';} ?>">
-        <a class="nav-link" href="index.php">HOME</a>
+        <a class="nav-link" href="index.php">ADD</a>
       </li>
       <li class="nav-item <?php if($title == 'View'){ echo 'active';} ?>">
         <a class="nav-link" href="view.php">VIEW</a>
