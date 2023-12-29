@@ -2,13 +2,12 @@
     $title = 'Home';
     include 'connection.php';
     include 'header.php';
-    
 ?>
 
 <div class="container">
 <h1 class="text-center py-3 ">CRUD - ADD DATA</h1>
     <?php include 'navbar.php'; ?>
-    <form action="save.php" method="post">
+    <form action="add.php" method="post">
         <div class="row">
             <div class="col">
                 <label for="">Name</label>
