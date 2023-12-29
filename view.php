@@ -40,8 +40,8 @@
                     <td><?php echo $row['city']; ?></td>
                     <td><?php echo $row['gname']; ?></td>
                     <td><?php echo $row['designation']; ?></td>
-                    <td><a href="update_edit.php?eid=<?php echo $row['eid']; ?>" class="btn btn-success">Update</a></td>
-                    <td><a href="delete.php?eid=<?php echo $row['eid']; ?>" class="btn btn-danger">Delete</a></td>
+                    <td><a href="update_inline.php?eid=<?php echo $row['eid']; ?>" class="btn btn-success">Update</a></td>
+                    <td><a href="delete_inline.php?eid=<?php echo $row['eid']; ?>" class="btn btn-danger">Delete</a></td>
                 </tr>
                 <?php
                     }

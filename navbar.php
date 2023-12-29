@@ -11,10 +11,10 @@
         <a class="nav-link" href="view.php">VIEW</a>
       </li>
       <li class="nav-item <?php if($title == 'Update'){ echo 'active';} ?>">
-        <a class="nav-link" href="view.php">UPDATE</a>
+        <a class="nav-link" href="updatedata.php">UPDATE</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="view.php">DELETE</a>
+      <li class="nav-item <?php if($title == 'Delete'){ echo 'active';} ?>">
+        <a class="nav-link" href="deletedata.php">DELETE</a>
       </li>
     </ul>
   </div>
