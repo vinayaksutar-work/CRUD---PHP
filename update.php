@@ -21,13 +21,13 @@ if(isset($_POST['update_btn']))
 
     if(!$result)
     {
-        die("Not Updated" . mysqli_error($conn));
+        die("Not Updated. Please try again" . mysqli_error($conn));
     }
     else
     {
         ?>
             <script>
-                alert("Data Updated successfully");
+                alert("Data Updated Successfully!!");
                 window.location = "view.php";
             </script>
         <?php
