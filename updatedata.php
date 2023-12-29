@@ -10,7 +10,7 @@
     <form action="<?php $_SERVER['PHP_SELF'];?>" method="post">
         <div class="row">
             <div class="col">
-                <label for="">Id</label>
+                <label for="">Employee Id</label>
                 <input type="text" name="eid" class="form-control">
                 <input type="submit" value="Show" name="show_btn" class="btn btn-primary my-3">
             </div>
