@@ -3,7 +3,7 @@
     include 'connection.php';
     include 'header.php'; 
 ?>
-<div class="container">
+<div class="container-fluid px-5 ">
     <h1 class="text-center py-3 ">CRUD - VIEW DATA</h1>
     <?php include 'navbar.php'; ?>
     <div class="table-responsive">
